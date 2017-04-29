@@ -1,0 +1,40 @@
+######Fri Apr 28 19:20:38 2017########
+
+##############################
+####  PROGRAM PARAMETERS  ####
+##############################
+interaction_type = DNA2
+backend = CPU
+backend_precision = double
+
+##############################
+####    SIM PARAMETERS    ####
+##############################
+steps = 40000
+newtonian_steps = 206
+thermostat = john
+
+T=0.110
+dt = 0.005
+verlet_skin = 0.05
+salt_concentration = 0.5
+
+#############################
+####     INTERACTIONS     ####
+##############################
+rcut = 2.0
+
+#########Structural Info of Models #####
+####################
+topology = ./prova.top
+conf_file = ./prova.conf
+trajectory_file = ./trajectory.dat
+referesh_vel = 1
+no_stdout_energy = 0
+restart_step_counter = 0
+energy_file = ./energy.dat
+print_conf_interval = 1000000
+print_conf_ppc = 51
+print_energy_every = 1000
+time_scale = linear
+external_forces=0
