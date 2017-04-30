@@ -4,6 +4,7 @@
 ####  PROGRAM PARAMETERS  ####
 ##############################
 interaction_type = DNA2
+sim_type = MD
 backend = CPU
 backend_precision = double
 
